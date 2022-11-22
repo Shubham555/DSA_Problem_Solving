@@ -29,9 +29,8 @@ public:
            for(int j=0;j<cols;j++){
                sum += accounts[i][j];
            }
-           if(sum>maxSum){
-              maxSum = sum; 
-           }
+           
+           maxSum= max(maxSum,sum);
        }
         return maxSum;
     }
