@@ -2,14 +2,6 @@ class Solution {
 public:
     
     
-//     bool search(vector<vector<string>>& items,int i,int j)
-//     {
-//         for(int j=0;j<items[0].size();j++)
-//         {
-            
-//         }
-//     }
-    
     int countMatches(vector<vector<string>>& items, string ruleKey, string ruleValue) {
         int ans =0;
         
