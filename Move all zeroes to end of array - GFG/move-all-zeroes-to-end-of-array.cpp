@@ -26,15 +26,18 @@ public:
              
           
       }
-      
-      int k=0;
-      
-      for(auto it:v)
-      {
-          arr[k]=it;
-          k++;
+      for(int i=0;i<n;i++){
+          arr[i] = v[i];
       }
-      return;
+      
+    //   int k=0;
+      
+    //   for(auto it:v)
+    //   {
+    //       arr[k]=it;
+    //       k++;
+    //   }
+    //   return;
       
       
       
