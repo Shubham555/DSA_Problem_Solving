@@ -8,40 +8,15 @@ class Solution{
 public:
 	void pushZerosToEnd(int arr[], int n) {
 	    // code here
-	  vector<int> v;
+	  vector<int>v;
       for(int i=0;i<n;i++)
-      {
-          if(arr[i] > 0)
-          {
+            if(arr[i]>0)
               v.push_back(arr[i]);
-          }
-      }
-      
-      for(int i=0;i<n;i++)
-      {
-             if(arr[i]==0)
-             {
-                  v.push_back(arr[i]);
-             }
-             
-          
-      }
-      for(int i=0;i<n;i++){
-          arr[i] = v[i];
-      }
-      
-    //   int k=0;
-      
-    //   for(auto it:v)
-    //   {
-    //       arr[k]=it;
-    //       k++;
-    //   }
-    //   return;
-      
-      
-      
-      
+       for(int i=0;i<n;i++)
+            if(arr[i]==0)
+              v.push_back(arr[i]);
+       for(int i=0;i<n;i++)
+          arr[i]=v[i];
 	}
 };
 
