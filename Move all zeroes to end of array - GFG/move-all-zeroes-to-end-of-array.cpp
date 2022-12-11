@@ -31,7 +31,8 @@ public:
       
       for(auto it:v)
       {
-          arr[k++]=it;
+          arr[k]=it;
+          k++;
       }
       return;
       
